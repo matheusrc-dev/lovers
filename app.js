@@ -7,6 +7,7 @@ const vm = new Vue({
     mensagemAlerta: 'Item adicionado',
     alertaAtivo: false,
     carrinhoAtivo: false,
+    currentIndex: 0
   },
   filters: {
     numeroPreco(valor) {
@@ -84,6 +85,14 @@ const vm = new Vue({
       const hash = document.location.hash;
       if (hash) this.fetchProduto(hash.replace('#', ''));
     },
+    previousPhoto() {
+      if(this.currentIndex != 0)
+        this.currentIndex--
+    },
+    nextPhoto() {
+      if(this.currentIndex < 21)
+        this.currentIndex++;
+    }
   },
   watch: {
     carrinho() {

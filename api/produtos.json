@@ -1,32 +1,107 @@
 [
   {
-    "id": "notebook",
-    "nome": "Notebook",
-    "preco": 2999,
-    "img": "./api/produtos/notebook/notebook.jpg"
+    "id": "1",
+    "nome": "1",
+    "img": "./api/fotos/1.png"
   },
   {
-    "id": "smartphone",
-    "nome": "Smartphone",
-    "preco": 1299,
-    "img": "./api/produtos/smartphone/smartphone.jpg"
+    "id": "2",
+    "nome": "2",
+    "img": "./api/fotos/2.png"
   },
   {
-    "id": "tablet",
-    "nome": "Tablet",
-    "preco": 899,
-    "img": "./api/produtos/tablet/tablet.jpg"
+    "id": "3",
+    "nome": "3",
+    "img": "./api/fotos/3.png"
   },
   {
-    "id": "smartwatch",
-    "nome": "Smartwatch",
-    "preco": 1199,
-    "img": "./api/produtos/smartwatch/smartwatch.jpg"
+    "id": "4",
+    "nome": "4",
+    "img": "./api/fotos/4.png"
   },
   {
-    "id": "speaker",
-    "nome": "Speaker",
-    "preco": 599,
-    "img": "./api/produtos/speaker/speaker.jpg"
+    "id": "5",
+    "nome": "5",
+    "img": "./api/fotos/5.png"
+  },
+  {
+    "id": "6",
+    "nome": "6",
+    "img": "./api/fotos/6.png"
+  },
+  {
+    "id": "7",
+    "nome": "7",
+    "img": "./api/fotos/7.png"
+  },
+  {
+    "id": "8",
+    "nome": "8",
+    "img": "./api/fotos/8.png"
+  },
+  {
+    "id": "9",
+    "nome": "9",
+    "img": "./api/fotos/9.png"
+  },
+  {
+    "id": "10",
+    "nome": "10",
+    "img": "./api/fotos/10.png"
+  },
+  {
+    "id": "11",
+    "nome": "11",
+    "img": "./api/fotos/11.png"
+  },
+  {
+    "id": "12",
+    "nome": "12",
+    "img": "./api/fotos/12.png"
+  },
+  {
+    "id": "13",
+    "nome": "13",
+    "img": "./api/fotos/13.png"
+  },
+  {
+    "id": "14",
+    "nome": "14",
+    "img": "./api/fotos/14.png"
+  },
+  {
+    "id": "15",
+    "nome": "15",
+    "img": "./api/fotos/15.png"
+  },
+  {
+    "id": "16",
+    "nome": "16",
+    "img": "./api/fotos/16.png"
+  },
+  {
+    "id": "17",
+    "nome": "17",
+    "img": "./api/fotos/17.png"
+  },
+  {
+    "id": "18",
+    "nome": "18",
+    "img": "./api/fotos/18.png"
+  },
+  {
+    "id": "19",
+    "nome": "19",
+    "img": "./api/fotos/19.png"
+  },
+  {
+    "id": "20",
+    "nome": "20",
+    "img": "./api/fotos/20.png"
+  },
+  {
+    "id": "21",
+    "nome": "21",
+    "img": "./api/fotos/21.png"
   }
 ]
