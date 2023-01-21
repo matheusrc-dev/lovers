@@ -26,9 +26,9 @@
 
     <section class="produtos">
       <div class="produto">
-        <button @click="previousPhoto" class="button-previous"><</button>
+        <button @click="previousPhoto" v-if="currentIndex > 0" class="button-previous"><</button>
         <img :src="produtos[currentIndex].img" :alt="produtos[currentIndex].nome" class="produto_img">
-        <button @click="nextPhoto" class="button-next">></button>
+        <button @click="nextPhoto" v-if="currentIndex != 20"class="button-next">></button>
       </div>
     </section>
   </div>
