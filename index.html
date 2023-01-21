@@ -29,6 +29,7 @@
         <button @click="previousPhoto" v-if="currentIndex > 0" class="button-previous"><</button>
         <img :src="produtos[currentIndex].img" :alt="produtos[currentIndex].nome" class="produto_img">
         <button @click="nextPhoto" v-if="currentIndex != 20"class="button-next">></button>
+        <span class="amount-images">{{ currentIndex + 1 }} / 21</span>
       </div>
     </section>
   </div>
